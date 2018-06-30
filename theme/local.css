@@ -1,6 +1,5 @@
 /* CSS Reset */
 html {
-  margin: 0;
   padding: 0;
   text-align: left;
 }
@@ -8,36 +7,44 @@ html {
 html {
   text-rendering: optimizeLegibility;
   font-size: 14pt;
+  margin: auto;
+  max-width: 950px;
 }
 
 /* HTML5 tag defaults. */
 header, footer, aside, nav, article 
 { 
   display: block;
+  margin: auto;
 }
+
+
 
 h1, h2, h3, h4, h5 { 
   font-family: "Futura", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: normal;
   text-align: left;
+  font-size: larger;
 }
 
-.published {
-  text-decoration-skip-ink: none;
+h2.entry-title {
+  font-size: larger;
 }
-
-.subtitle {
+.subtitle
+{
   font-style: italic;
+  font-size: smaller;
 }
 
 body {
   font-family: Palatino, serif;
   font-size: 14pt;
   max-width: 40em;
-  margin: auto;
+  margin: 0 auto;
+  line-height:1.4;
   text-align: left;
   background: white;
-  color: black;
+  color: #1a1a1a;
 }
 
 /* Use a thin border around all images. */
@@ -52,8 +59,8 @@ nav
 {
   font-family: "Futura", "Helvetica Neue", "Helvetica", sans-serif;
   padding-bottom: 1ex;
-  margin-bottom: 1em;
-  font-size: 14pt;
+  margin-bottom: 1.1em;
+  font-size: xx-large;
 }
 
 nav ul 
@@ -67,7 +74,7 @@ nav ul li
 {
   display: inline;
   float: left;
-  margin-right: 1em; /* How far between items. */
+  margin-right: 1em; 
   margin-top: .2em;
 }
 
@@ -77,10 +84,6 @@ nav ul li a
   margin: 0;
 }
 
-/*
- * Use a border around tables, but don't draw lines around individual
- * cells.
- */
 table 
 {
   border-style: solid;
@@ -95,27 +98,23 @@ th, td
   border-width: thin;
 }
 
-/* for unvisited links: blue */
 a:link
 {
   color: rgb(0,0,239);
   text-decoration: none;
 }
 
-/* for visited links: purple */
 a:visited
 {
   color: rgb(81,24,142);
   text-decoration: none;
 }
 
-/* when mouse is over link or the link is active*/
 a:hover, a:active
 {
   text-decoration: underline;
 }
 
-/* Very clean ruler with no shadows. */
 hr
 {
   border: none;
