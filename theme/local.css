@@ -20,7 +20,10 @@ header, footer, aside, nav, article
   margin: auto;
 }
 
-
+blockquote {
+    border-left: 2px solid #999;
+    padding-left: 1em;
+  }
 
 h1, h2, h3, h4, h5 { 
   font-family: "Verdana", sans-serif;
