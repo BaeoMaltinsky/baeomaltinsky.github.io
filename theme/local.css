@@ -67,6 +67,7 @@ nav
 
 nav ul 
 {
+  font-family: "Verdana"; 
   padding: 0;
   margin-left: 0;
   list-style: none;
@@ -89,6 +90,10 @@ nav ul li a
 nav a:hover
 {
   text-decoration: none;
+}
+nav a:visited
+{
+  color: #26f;
 }
 table 
 {
