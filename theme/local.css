@@ -8,7 +8,7 @@ html {
   text-rendering: optimizeLegibility;
   font-size: 14pt;
   margin: auto;
-  max-width: 40em;
+  max-width: 950px;
   background-color:#fffdf8;
    
 }
@@ -47,6 +47,7 @@ h2.entry-title {
 body {
   font-family: Palatino, serif;
   font-size: 14pt;
+  max-width: 40em;
   margin: 0 auto;
   line-height:1.4;
   text-align: left;
