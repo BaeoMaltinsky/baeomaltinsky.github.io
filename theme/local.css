@@ -1,14 +1,12 @@
 /* CSS Reset */
 html {
-  padding: 0;
   text-align: left;
 }
 
 html {
   text-rendering: optimizeLegibility;
-  font-size: 14pt;
-  margin: auto;
-  max-width: 950px;
+  /*font-size: 14pt;*/
+  margin: 10px auto;
   background-color:#fffdf8;
    
 }
@@ -17,40 +15,37 @@ html {
 header, footer, aside, nav, article 
 { 
   display: block;
-  margin: auto;
+  /*margin: auto;*/
 }
 
 blockquote {
     border-left: 2px solid #999;
     padding-left: 1em;
   }
-
 h1, h2, h3, h4, h5 { 
-  font-family: "Verdana", sans-serif;
   font-weight: normal;
   text-align: left;
-  font-size: larger;
 }
 
-h2 {
-  font-size: large;
-}
+
 h2.entry-title {
   font-size: large;
+  font-weight: normal;
 }
 .subtitle
 {
   font-style: italic;
   font-size: smaller;
+  line-height: 1;
 }
 
 body {
-  font-family: Palatino, serif;
-  font-size: 14pt;
-  max-width: 40em;
-  margin: 0 auto;
-  line-height:1.4;
-  text-align: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  max-width: 80ch;
+  margin: 0px auto;
+  line-height:1.6;
+  /*text-align: left;*/
   color: #1a1a1a;
 }
 
@@ -61,16 +56,21 @@ img
   max-width: 40em;
 }
 
+
+.footnote {
+word-wrap: break-word;
+}
+
 /* Navigation bar. */
 nav 
 {
-  font-family: "Verdana"; 
-  font-size: 2rem;
+  font-family: Verdana; 
+  white-space: nowrap;
+  font-size: 2.4em;
 }
 
 nav ul 
 {
-  font-family: "Verdana"; 
   padding: 0;
   margin-left: 0;
   list-style: none;
