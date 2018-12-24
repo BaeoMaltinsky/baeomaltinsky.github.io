@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/baeomaltinsky
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://maltinsky.net
+  * I am baeomaltinsky (https://keybase.io/baeomaltinsky) on keybase.
+  * I have a public key ASA7ZGiwdpswiT5WjEcT3ZbRnq00mqSxy__T677kFxzYqwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b8093d99af69e8cd83b824eb8c820dbfc72ca553c7ee203e7fcee60984afd0c10a",
+      "host": "keybase.io",
+      "kid": "01203b6468b0769b30893e568c4713dd96d19ead349aa4b1cbffd3ebbee4171cd8ab0a",
+      "uid": "9420998edca6325e7ef4cc5f91d09f19",
+      "username": "baeomaltinsky"
+    },
+    "merkle_root": {
+      "ctime": 1545687543,
+      "hash": "baa3c4e013f8ef22ca46927bd1aec8ca7e5eedd63732b3b530cac243a84736ce2fc13723250a959828527f829d5a69579ad63031b5f7ffb074f57b769168fd32",
+      "hash_meta": "6f1f41fe583b03e17f8748102cc97c16b9a9696f720698109f1449d25ef2ba26",
+      "seqno": 4191848
+    },
+    "service": {
+      "entropy": "rfPhMnwqsHmaD+jve018xJ+l",
+      "hostname": "maltinsky.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1545687582,
+  "expire_in": 504576000,
+  "prev": "2c4c3f8b446bc7dcf59a64a2083a6bd97de91f2375d137587d7f5037bd095baa",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgO2RosHabMIk+VoxHE92W0Z6tNJqkscv/0+u+5Bcc2KsKp3BheWxvYWTESpcCG8QgLEw/i0Rrx9z1mmSiCDpr2X3pHyN10TdYfX9QN70JW6rEIJ4ebWS8eYML9WAXNwhpwRbhhaAAtuZ9RZC1ugrcwgVYAgHCo3NpZ8RAKrrzfQm63McJ+rFav1aVGIhrPES6b02vKBDBzMmaJItA50D27H6l1wDnaQCkCU+IKpn6ExaFnWNUwnOupI/CBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAbTU8vjSQWiCoQ9AROjLi/k40bDF5UABWndPGP84MPso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/baeomaltinsky
+
+==================================================================
